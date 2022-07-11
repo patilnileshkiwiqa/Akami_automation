@@ -1,0 +1,30 @@
+{
+  "server": "hub.browserstack.com",
+  "user": "sivakumar_sdrcPp",
+  "key": "WJE28zDrsE4ZJ99EkyUx",
+  "capabilities": {
+    "build": "Parallel Build Akami",
+    "name": "parallel_test_Akami",
+    "browserstack.debug": true
+  },
+  "environments": {
+    "env1": {
+      "device": "Samsung Galaxy S21",
+      "osVersion": "12.0",
+      "browserName": "android",
+      "realMobile": "true"
+    },
+    "env2": {
+      "browser": "chrome",
+      "browserVersion": "103.0",
+      "os": "OS X",
+      "osVersion": "Monterey"
+    },
+    "env3": {
+      "browser": "chrome",
+      "browserVersion": "103.0",
+      "os": "Windows",
+      "osVersion": "10"
+    }
+  }
+}

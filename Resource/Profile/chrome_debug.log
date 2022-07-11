@@ -1,0 +1,18 @@
+[7112:10784:0617/174351.785:ERROR:device_event_log_impl.cc(214)] [17:43:51.785] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+[7112:10784:0617/174351.791:ERROR:device_event_log_impl.cc(214)] [17:43:51.791] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+[7112:10784:0617/174351.791:ERROR:device_event_log_impl.cc(214)] [17:43:51.791] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+[7112:10784:0617/174356.442:INFO:CONSOLE(1)] "ERROR TypeError: Cannot read properties of null (reading 'menu')", source: http://192.168.0.147:8074/main.e1267386656a3768e468.js (1)
+[7112:10784:0617/174356.607:INFO:CONSOLE(0)] "[DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o", source: http://192.168.0.147:8074/login (0)
+[7112:10784:0617/174356.820:INFO:CONSOLE(1)] "ERROR TypeError: Cannot read properties of null (reading 'menu')", source: http://192.168.0.147:8074/main.e1267386656a3768e468.js (1)
+[7112:10784:0617/174357.199:INFO:CONSOLE(0)] "[DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o", source: http://192.168.0.147:8074/login (0)
+[7112:10784:0617/174357.199:INFO:CONSOLE(1)] "i18next: languageChanged en-US", source: https://web.leena.ai/static/js/6.fa8c4bd7.chunk.js (1)
+[7112:10784:0617/174357.199:INFO:CONSOLE(1)] "i18next: initialized [object Object]", source: https://web.leena.ai/static/js/6.fa8c4bd7.chunk.js (1)
+[7112:10784:0617/174358.138:WARNING:download_manager_impl.cc(722)] A download with the same GUID already exists, the new request is ignored.
+[7112:10784:0617/174358.461:WARNING:download_manager_impl.cc(722)] A download with the same GUID already exists, the new request is ignored.
+[7112:10784:0617/174358.792:WARNING:download_manager_impl.cc(722)] A download with the same GUID already exists, the new request is ignored.
+[7112:10784:0617/174358.932:WARNING:download_manager_impl.cc(722)] A download with the same GUID already exists, the new request is ignored.
+[7112:10784:0617/174359.017:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:265060
+[7112:10784:0617/174404.312:INFO:CONSOLE(1)] "react-i18next:: It seems you are still using the old wait option, you may migrate to the new useSuspense behaviour.", source: https://web.leena.ai/static/js/6.fa8c4bd7.chunk.js (1)
+[7112:10784:0617/174404.538:INFO:CONSOLE(1)] "[react-markdown] Warning: please remove `escapeHtml` (see <https://github.com/remarkjs/react-markdown/blob/main/changelog.md#remove-buggy-html-in-markdown-parser> for more info)", source: https://web.leena.ai/static/js/6.fa8c4bd7.chunk.js (1)
+[7112:10784:0617/174419.071:WARNING:controller_impl.cc(1190)] Background download complete, client: 6, completion type: 0, file size:45567003
+[7112:10784:0617/174522.352:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv='content-type' content='text/html; charset=utf-8' /> 
+<meta name='description' content='' />
+<meta name='robots' content='noodp, noydir' />
+<meta name='viewport' content='width=device-width, initial-scale=1' />
+<meta id="timeStampFormat" name="timeStampFormat" content='MMM d, yyyy hh:mm:ss a'/>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href='https://cdn.rawgit.com/anshooarora/extentreports-java/bee7a4abdc590e21eec8618a90c81ff4d16e500a/dist/css/extent.css' type='text/css' rel='stylesheet' />
+<title>QA report</title>
+<style type='text/css'>
+</style>
+</head>
+<body class='extent standard default hide-overflow dark'>
+<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>
+<span><i class='material-icons'>desktop_windows</i></span>
+</div>
+<nav>
+<div class="nav-wrapper">
+<a href="#!" class="brand-logo blue darken-3">SP_QA</a>
+<!-- slideout menu -->
+<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
+<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
+<li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i class='material-icons'>label_outline</i></a></li>
+<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
+</ul>
+<!-- report name -->
+<span class='report-name'>Functional</span>
+<!-- report headline -->
+<span class='report-headline'></span>
+</div>
+</nav>
+<div class='container'>
+<div id='test-view' class='view'>
+<section id='controls'>
+<div class='controls grey lighten-4'>
+<!-- test toggle -->
+<div class='chip transparent'>
+<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>
+<i class='material-icons'>warning</i> Status
+</a>
+<ul id='tests-toggle' class='dropdown-content'>
+<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>verified</i></a></li>
+<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>bug_report</i></a></li>
+<li class='divider'></li>
+<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
+</ul>
+</div>
+<!-- test toggle -->
+<!-- category toggle -->
+<div class='chip transparent'>
+<a class='dropdown-button category-toggle' data-activates='category-toggle' data-constrainwidth='false' data-beloworigin='true' data-hover='true' href='#'>
+<i class='material-icons'>local_offer</i> Category
+</a>
+<ul id='category-toggle' class='dropdown-content'>
+<li><a href='#'>Do</a></li>
+<li class='divider'></li>
+<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
+</ul>
+</div>
+<!-- category toggle -->
+<!-- clear filters -->
+<div class='chip transparent hide'>
+<a class='' id='clear-filters' alt='Clear Filters' title='Clear Filters'>
+<i class='material-icons'>close</i> Clear
+</a>
+</div>
+<!-- clear filters -->
+<!-- enable dashboard -->
+<div id='toggle-test-view-charts' class='chip transparent'>
+<a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>
+<i class='material-icons'>track_changes</i> Dashboard
+</a>
+</div>
+<!-- enable dashboard -->
+<!-- search -->
+<!-- search -->
+</div>
+</section>
+<div id='test-view-charts' class='subview-full'>
+<div id='charts-row' class='row nm-v nm-h'>
+<div class='col s12 m6 l6 np-h'>
+<div class='card-panel nm-v'>
+<center>
+<div class='block text-small'>
+<h5> <span class='tooltipped' data-position='top' data-tooltip='75%'><span class='strong'>2</span> test(s) passed</span> </h5>
+</div>
+<div class='block text-small'>
+<h5> <span class='strong tooltipped' data-position='top' data-tooltip='25%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others </h5>
+</div>
+</center>
+</div>
+</div>
+<div class='col s12 m6 l6 np-h'>
+<div class='card-panel nm-v' id='parent-analysis1' >
+</div>
+</div>
+</div>
+</div>
+<div class='subview-left left'>
+<div class='view-summary'>
+<h5>Tests</h5>
+<ul id='test-collection' class='test-collection'>
+<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
+<div class='test-heading'>
+<span class='test-name'>Logout</span>
+<span class='test-time'>Jul 08, 2022, 12:57 pm IST</span>
+<span class='label start-time'style='float: right'>Pass</span>
+</div>
+<div class='test-content hide'>
+<div class='test-time-info'>
+<span class='label start-time'>Jul 08, 2022, 12:57 pm IST</span>
+<span class='label end-time'>Jul 08, 2022, 12:57 pm IST</span>
+<span class='label time-taken grey lighten-1 white-text'>00:00:06</span>
+</div>
+<div class='test-attributes'>
+<div class='category-list'>
+<span class='category label white-text'>Do</span>
+</div>
+<!--<div class='author-list'>
+</div>-->
+</div>
+<div class='test-steps'>
+<table class='bordered table-results'>
+<thead>
+<tr>
+<th>STATUS</th>
+<th>TIMESTAMP</th>
+<th>DETAILS</th>
+</tr>
+</thead>
+<tbody>
+<tr class='log' status='info'>
+<td><span class='label start-time'>Pass</span></td>
+<td class='timestamp'>12:57:22 pm</td>
+<td class='step-details'>Open URL : https://www.saucedemo.com/inventory.html</br></td>
+</tr>
+<tr class='log' status='info'>
+<td><span class='label start-time'>Pass</span></td>
+<td class='timestamp'>12:57:22 pm</td>
+<td class='step-details'>Click on 1st link.</br></td>
+</tr>
+<tr class='log' status='info'>
+<td><span class='label start-time'>Pass</span></td>
+<td class='timestamp'>12:57:22 pm</td>
+<td class='step-details'><span class='label start-time'>Logout is passed.</b></font></strong></br></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</li>
+<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
+<div class='test-heading'>
+<span class='test-name'>Login</span>
+<span class='test-time'>Jul 08, 2022, 12:57 pm IST</span>
+<span class='label start-time'style='float: right'>Pass</span>
+</div>
+<div class='test-content hide'>
+<div class='test-time-info'>
+<span class='label start-time'>Jul 08, 2022, 12:57 pm IST</span>
+<span class='label end-time'>Jul 08, 2022, 12:57 pm IST</span>
+<span class='label time-taken grey lighten-1 white-text'>00:00:05</span>
+</div>
+<div class='test-attributes'>
+<div class='category-list'>
+<span class='category label white-text'>Do</span>
+</div>
+<!--<div class='author-list'>
+</div>-->
+</div>
+<div class='test-steps'>
+<table class='bordered table-results'>
+<thead>
+<tr>
+<th>STATUS</th>
+<th>TIMESTAMP</th>
+<th>DETAILS</th>
+</tr>
+</thead>
+<tbody>
+<tr class='log' status='info'>
+<td><span class='label start-time'>Pass</span></td>
+<td class='timestamp'>12:57:31 pm</td>
+<td class='step-details'>Open URL : https://www.saucedemo.com/inventory.html</br></td>
+</tr>
+<tr class='log' status='info'>
+<td><span class='label start-time'>Pass</span></td>
+<td class='timestamp'>12:57:31 pm</td>
+<td class='step-details'>Click on 1st link.</br></td>
+</tr>
+<tr class='log' status='info'>
+<td><span class='label start-time'>Pass</span></td>
+<td class='timestamp'>12:57:31 pm</td>
+<td class='step-details'><span class='label start-time'>Login is passed.</b></font></strong></br></span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class='subview-right left'>
+<div class='view-summary'>
+<h5 class='test-name'></h5>
+</div>
+</div>
+<!-- subview right -->
+</div>
+<div id='category-view' class='view hide'>
+<section id='controls'>
+<div class='controls grey lighten-4'>
+<!-- search -->
+<!--<div class='chip transparent' alt='Search Tests' title='Search Tests'>
+<a href="#" class='search-div'>
+<i class='material-icons'>search</i> Search
+</a>
+<div class='input-field left hide'>
+<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
+</div>
+</div>
+<!-- search -->
+</div>
+</section>
+<div class='subview-left left'>
+<div class='view-summary'>
+<h5>Categories</h3>
+<ul id='category-collection' class='category-collection'>
+<li class='category displayed active'>
+<div class='category-heading'>
+<span class='category-name'>Do</span>
+<span class='category-status right'>
+<span class='label pass'>2</span>
+<span class='label fail'>0</span>
+</span>
+</div>
+<div class='category-content hide'>
+<div class='category-status-counts'>
+<span class='label green accent-4 white-text'>Passed: 2</span>
+<span class='label red lighten-1 white-text'>Failed: 0</span>
+</div>
+<div class='category-tests'>
+<table class='bordered table-results'>
+<thead>
+<tr>
+<th>Timestamp</th>
+<th>TestName</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jul 08, 2022, 12:57 pm IST</td>
+<td class='linked' test-id='1'>Logout</td>
+<td><span class='test-status pass'>pass</span></td>
+</tr>
+<tr>
+<td>Jul 08, 2022, 12:57 pm IST</td>
+<td class='linked' test-id='1'>Login</td>
+<td><span class='test-status pass'>pass</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class='subview-right left'>
+<div class='view-summary'>
+<h5 class='category-name'></h5>
+</div>
+</div>
+</div>
+<!-- exception view -->
+<div id='dashboard-view' class='view hide'>
+<div class='card-panel transparent np-v'>
+<h5>Dashboard</h5>
+<div class='row'>
+<div class='col s2'>
+<div class='card-panel r'>
+Module
+<div class='panel-lead'>1</div>
+</div>
+</div>
+<div class='col s2'>
+<div class='card-panel r'>
+Total Test
+<div class='panel-lead'>2</div>
+</div>
+</div>
+<div class='col s2'>
+<div class='card-panel r'>
+Start
+<div class='panel-lead'>Jul 08, 2022, 12:57 pm IST</div>
+</div>
+</div>
+<div class='col s2'>
+<div class='card-panel r'>
+End
+<div class='panel-lead'>Jul 08, 2022, 12:57 pm IST</div>
+</div>
+</div>
+<div class='col s2'>
+<div class='card-panel r'>
+Time Taken
+<div class='panel-lead'>0.4 minutes</div>
+</div>
+</div>
+<div class='col s4'>
+<div class='card-panel dashboard-environment'>
+<span class='right label cyan white-text'>Environment</span><p>&nbsp;</p>
+<table>
+<tr>
+<th>Name</th>
+<th>Value</th>
+</tr>
+<tr>
+<td>URL</td>
+<td>https://www.saucedemo.com/inventory.html</td>
+</tr>
+<tr>
+<td>Browser</td>
+<td>null v</td>
+</tr>
+<tr>
+<td>Report Version</td>
+<td>2.0</td>
+</tr>
+<tr>
+<td>Customized By</td>
+<td>Badal Shah</td>
+</tr>
+</table>
+</div>
+</div>
+<div class='col s4'>
+<div class='card-panel dashboard-categories'>
+<span class='right label cyan white-text'>Categories</span><p>&nbsp;</p>
+<table>
+<tr>
+<th>Name</th>
+<th>Passed</th>
+<th>Failed</th>
+<th>Others</th>
+</tr>
+<tr>
+<td>Do</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- dashboard view -->
+<!-- testrunner-logs view -->
+</div>
+<!-- container -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js">
+</script>
+<script>
+google.charts.load("current", {packages:["corechart"]});
+google.charts.setOnLoadCallback(drawChart);
+function drawChart() {
+var data = google.visualization.arrayToDataTable([
+['Task', 'Hours per Day'],
+['Pass',     2],
+['Fail',     0],
+['Skip',    0]
+]);
+var options = {
+<!-- title: 'Build Summary',-->
+legend:{textStyle: {color: '#1C8490'}},
+'backgroundColor': 'transparent',
+pieHole: 0.4,
+pieSliceTextStyle: {color: '#1C8490'}};
+var chart = new google.visualization.PieChart(document.getElementById('parent-analysis1'));
+chart.draw(data, options);
+}
+</script>
+<script>
+var statusGroup = {
+passParent: 3,
+failParent: 1,
+fatalParent: 0,
+errorParent: 0,
+warningParent: 0,
+skipParent: 0,
+exceptionsParent: 1,
+passChild: 0,
+failChild: 2,
+fatalChild: 0,
+errorChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 4,
+exceptionsChild: 2,
+passGrandChild: 0,
+failGrandChild: 0,
+fatalGrandChild: 0,
+errorGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+exceptionsGrandChild: 0,
+};
+</script>
+<script src='https://cdn.jsdelivr.net/gh/anshooarora/extentreports-java@925c18aac5e7fe935676822f33803ab0444208e6/dist/js/extent.js' type='text/javascript'>
+</script>
+<script type='text/javascript'>
+ $(document).ready(function() {
+ $(document).ready(function() { $(".blue.darken-3").attr("href", "#"); });
+ $(document).ready(function() { $(".blue.darken-3").attr("href", "#"); });
+ $(document).ready(function() { $(".blue.darken-3").css("width","90px") });
+ $(document).ready(function() { $(".side-nav").css("width","90px") });
+ $(document).ready(function() { $(".side-nav i").css("width","35px") });
+ $(document).ready(function() { $(".container").css("padding-left","80px") });
+ $(document).ready(function() { $(".side-nav li").css("width","90px") });
+ $(document).ready(function() { $("nav .brand-logo").css("padding-left","25px") });
+ $(document).ready(function() { $("element.style").css("width","500px") });
+ <!-- $(document).ready(function() { $(".row .col.l6").css("width","100%") });-->
+  });
+</script>
+</body>
+</html>

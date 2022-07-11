@@ -1,0 +1,17 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "sivakumar_sdrcPp",
+  "key": "WJE28zDrsE4ZJ99EkyUx",
+
+  "capabilities": {
+    "build": "browserstack-build-1",
+    "name": "single_test",
+    "browserstack.debug": true
+  },
+
+  "environments": {
+    "chrome": {
+      "browser": "chrome"
+    }
+  }
+}
